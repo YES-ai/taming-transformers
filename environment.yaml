@@ -1,11 +1,11 @@
-name: taming
+name: vqgan
 channels:
   - pytorch
   - defaults
 dependencies:
   - python=3.8.5
   - pip=20.3
-  - cudatoolkit=10.2
+  # - cudatoolkit=10.2  # may cause error
   - pytorch=1.7.0
   - torchvision=0.8.1
   - numpy=1.19.2
